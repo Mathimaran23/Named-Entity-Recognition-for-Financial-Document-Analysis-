@@ -14,21 +14,21 @@ This project focuses on extracting domain-specific entities like organizations, 
 
 ---
 
-## 🏗 Components
+##  Components
 
-### 1. 🔹 SpaCy NER
+### 1.  SpaCy NER
 
 - Uses `spacy.blank("en")` for training a custom NER model on labeled financial text.
 - Annotated entities are converted into `.spacy` format using `DocBin`.
 - Custom entity labels like `ORG`, `MONEY`, `DATE`, etc.
 
-### 2. 🔹 Fine-tuned FinBERT
+### 2.  Fine-tuned FinBERT
 
 - Utilizes the [FinBERT](https://huggingface.co/yiyanghkust/finbert-tone) model pre-trained on financial corpora.
 - Fine-tuned as a token classification model using Hugging Face's `Trainer` API.
 - Useful for identifying sentiment-laden and contextual financial tokens.
 
-### 3. 🔹 Regex-based Rule Matching
+### 3.  Regex-based Rule Matching
 
 - Uses SpaCy's `Matcher` to detect structured entities (e.g., `$5.3M`, `Q1 2024`, `USD 100K`).
 - Great for rule-based identification of predictable patterns.
