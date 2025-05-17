@@ -1,20 +1,20 @@
-# 💼 Financial Named Entity Recognition (NER)
+#  Financial Named Entity Recognition (NER)
 
 A hybrid NLP pipeline that extracts entities from financial documents using:
 
-- 🧠 **SpaCy NER**
-- 🤖 **Fine-tuned FinBERT**
-- 🧾 **Regex-based Rule Matching**
+-  **SpaCy NER**
+-  **Fine-tuned FinBERT**
+-  **Regex-based Rule Matching**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on extracting domain-specific entities like organizations, monetary amounts, dates, and financial events from unstructured financial text using both ML-based and rule-based approaches.
 
 ---
 
-## 🏗️ Components
+## 🏗 Components
 
 ### 1. 🔹 SpaCy NER
 
@@ -36,6 +36,5 @@ This project focuses on extracting domain-specific entities like organizations, 
 
 ---
 
-## 📁 Project Structure
 
 
