@@ -1,5 +1,4 @@
-pandas
-spacy
-scikit-learn
-torch
-transformers
+Pandas
+SpaCy
+Torch
+Transformers
